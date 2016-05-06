@@ -403,10 +403,23 @@ there.
 
 
 /* Larger than mobile */
+@media (min-width: 200px) {
+  .your-hipecard .title{
+    font-size: 3.0em;
+    margin-top: 30px;
+  }
+
+.your-hipecard .subtitle{
+    font-size: 1.0em;
+    margin-top: -15px;
+    margin-bottom: 50px;
+  }
+}
+
 @media (min-width: 400px) {
   .your-hipecard .title{
     font-size: 3.0em;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
 .your-hipecard .subtitle{
@@ -419,7 +432,7 @@ there.
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
   .your-hipecard .title{
-    margin-top: 70px;
+    margin-top: 75px;
     font-size: 3.0em
   }
 
