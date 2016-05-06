@@ -403,16 +403,45 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  .your-hipecard .title{
+    font-size: 3.0em;
+    margin-top: 10px;
+  }
+
+.your-hipecard .subtitle{
+    font-size: 2.0em;
+    margin-top: -15px;
+    margin-bottom: 50px;
+  }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  .your-hipecard .title{
+    margin-top: 70px;
+    font-size: 3.0em
+  }
+
+  .your-hipecard .subtitle{
+    font-size: 2.0em
+  }
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+  .your-hipecard .title{
+    margin-top: 150px;
+    font-size: 4.0em
+  }
+
+  .your-hipecard .subtitle{
+    font-size: 3.0em
+  }
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
