@@ -43,10 +43,20 @@
 
 .purchase
   background-color: $red
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
   color: $white
   padding: 3%
   font-size: 160%
   text-align: center
+  border-radius: 10px
+
+.purchase:hover
+  color: $white
+  box-shadow: 3px 5px 5px #333;
 
 .first-term, .second-term
   text-align: left
@@ -117,6 +127,7 @@
   .title
     padding: 1.5em
     text-align: center
+    // font-family: Montserrat
 
   .partners-list
     margin: 10px
