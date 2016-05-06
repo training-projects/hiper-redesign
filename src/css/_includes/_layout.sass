@@ -1,5 +1,8 @@
 // Main Header
 // ----------------------------------------------------------------------
+body
+  font-family: "Roboto Slab"
+
 .wrapper
   margin-bottom: 5em
   background-image: url("../../images/woman-shopping.jpg")
@@ -12,9 +15,14 @@
   padding: 10px
   margin-bottom: 0
 
+.sac
+  font-size: 80%
+  color: $red
+  margin-bottom: 10px
 
-.sac, .acess-form
-  text-align: right
+input.acess-submit
+  background-color: $red
+  color: $white
 
 .logo
   margin-top: 0
@@ -34,8 +42,6 @@
 // ----------------------------------------------------------------------
 .your-hipecard
   text-align: center
-
-.your-hipecard .title
 
 .your-hipecard .subtitle
   margin-top: -15px
@@ -64,10 +70,10 @@
   font-size: 0.8em
 
 .first-term
-  margin-top: 40px
+  margin-top: 80px
 
 .second-term
-  margin-bottom: 80px
+  margin-bottom: 20px
 
 
 // Where to use
@@ -76,6 +82,9 @@
   margin-bottom: 7em
   text-align: center
   color: $red
+
+.title, .subtitle
+  font-family: Quicksand;
 
   .title
     margin-bottom: 2.5em
@@ -127,7 +136,6 @@
   .title
     padding: 1.5em
     text-align: center
-    // font-family: Montserrat
 
   .partners-list
     margin: 10px

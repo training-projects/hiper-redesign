@@ -409,10 +409,14 @@ there.
     margin-top: 30px;
   }
 
-.your-hipecard .subtitle{
+  .your-hipecard .subtitle{
     font-size: 1.0em;
     margin-top: -15px;
     margin-bottom: 50px;
+  }
+
+  .sac, .acess-form, .logo{
+    text-align: center
   }
 }
 
@@ -422,10 +426,14 @@ there.
     margin-top: 30px;
   }
 
-.your-hipecard .subtitle{
+  .your-hipecard .subtitle{
     font-size: 2.0em;
     margin-top: -15px;
     margin-bottom: 50px;
+  }
+
+  .sac, .acess-form, .logo{
+    text-align: center
   }
 }
 
@@ -438,6 +446,14 @@ there.
 
   .your-hipecard .subtitle{
     font-size: 2.0em;
+  }
+
+  .logo{
+    text-align: left
+  }
+
+  .sac, .acess-form{
+    text-align: right
   }
 }
 
