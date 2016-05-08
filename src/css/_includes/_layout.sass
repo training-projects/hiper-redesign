@@ -37,7 +37,6 @@ input.acess-submit
 .acess-input
   width: 210px
 
-
 // Your Hipercard
 // ----------------------------------------------------------------------
 .your-hipecard
@@ -86,14 +85,19 @@ input.acess-submit
 .title, .subtitle
   font-family: Quicksand;
 
-  .title
-    margin-bottom: 2.5em
+.service-centers .title
+  margin-bottom: 2.5em
 
-  .find
-    padding: 2.5% 3%
-    border: 2px solid $red
-    color: $red
+.find
+  padding: 2.5% 3%
+  border: 2px solid $red
+  color: $red
+  border-radius: 10px
+  display: inline-block
 
+.find:hover
+  color: $red
+  text-decoration: underline
 
 // Reason to have your
 // ----------------------------------------------------------------------
@@ -110,21 +114,36 @@ input.acess-submit
   .facilities,
   .legal-person
     position: relative
-    height: 450px
+    height: 400px
     font-size: 14px
-
-  .advantages-list, .paragraph
-    padding-left: 15px
-    padding-top: 5px
+    border-bottom: 3px solid $white
+    padding: 15px 0
+    margin-bottom: 30px
 
   .redirect-link
-    margin-left: 15px
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
     padding: 1.0em
     background-color: $white
     color: $red
     position: absolute;
     bottom: 15px;
+    border-radius: 10px
+    text-align: center
 
+  .redirect-link:hover
+    text-decoration: underline
+    margin-left: 15px
+    
+  .legal-person .redirect-link
+    background: #018137
+    color: $white;
+
+  .legal-person .redirect-link:hover
+    text-decoration: underline
 
 // Partners
 // ----------------------------------------------------------------------
