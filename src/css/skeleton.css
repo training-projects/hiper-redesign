@@ -431,6 +431,12 @@ there.
     margin-bottom: 30px;
     height: 350px;
   }
+
+  /* Partners
+  // ---------------------------------------------------------------------- */
+  .check-link{
+    left: 10%;
+  }
 }
 
 @media (min-width: 400px) {
@@ -455,6 +461,12 @@ there.
   .facilities,
   .legal-person{
     height: 320px;
+  }
+
+  /* Partners
+  // ---------------------------------------------------------------------- */
+  .check-link{
+    left: 8%;
   }
 }
 
@@ -486,6 +498,12 @@ there.
   }
 }
 
+  /* Partners
+  // ---------------------------------------------------------------------- */
+  .check-link{
+    left: 10%;
+  }
+
 /* Larger than tablet */
 @media (min-width: 750px) {
 
@@ -516,6 +534,12 @@ there.
   .legal-person{
     height: 400px;
   }
+
+  /* Partners
+  // ---------------------------------------------------------------------- */
+  .check-link{
+    left: 12%;
+  }
 }
 
 /* Larger than Desktop HD */
@@ -527,5 +551,11 @@ there.
   .facilities,
   .legal-person{
     height: 400px;
+  }
+
+  /* Partners
+  // ---------------------------------------------------------------------- */
+  .check-link{
+    left: 12%;
   }
 }

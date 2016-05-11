@@ -21,11 +21,21 @@ body
   margin-bottom: 10px
 
 input.acess-submit
+  border: none
   background-color: $red
   color: $white
+  -webkit-transition: all 1s
+  -moz-transition: all 1s
+  -ms-transition: all 1s
+  -o-transition: all 1s
+  transition: all 1s
 
   &:hover
     color: $white
+
+input.acess-submit:hover
+  text-decoration: underline
+  box-shadow: 1.5px 2.5px 2.5px #333
 
 .logo
   margin-top: 0
@@ -51,11 +61,11 @@ input.acess-submit
 
 .purchase
   background-color: $red
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 1s
+  -moz-transition: all 1s
+  -ms-transition: all 1s
+  -o-transition: all 1s
+  transition: all 1s
   color: $white
   padding: 3%
   font-size: 160%
@@ -64,7 +74,7 @@ input.acess-submit
 
 .purchase:hover
   color: $white
-  box-shadow: 3px 5px 5px #333;
+  box-shadow: 3px 5px 5px #333
 
 .first-term, .second-term
   text-align: left
@@ -86,7 +96,7 @@ input.acess-submit
   color: $red
 
 .title, .subtitle
-  font-family: Quicksand;
+  font-family: Quicksand
 
 .service-centers .title
   margin-bottom: 2.5em
@@ -123,16 +133,16 @@ input.acess-submit
     margin-bottom: 30px
 
   .redirect-link
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.3s
+    -moz-transition: all 0.3s
+    -ms-transition: all 0.3s
+    -o-transition: all 0.3s
+    transition: all 0.3s
     padding: 1.0em
     background-color: $white
     color: $red
-    position: absolute;
-    bottom: 15px;
+    position: absolute
+    bottom: 15px
     border-radius: 10px
     text-align: center
 
@@ -142,7 +152,7 @@ input.acess-submit
 
   .legal-person .redirect-link
     background: #018137
-    color: $white;
+    color: $white
 
   .legal-person .redirect-link:hover
     text-decoration: underline
@@ -153,24 +163,25 @@ input.acess-submit
   text-align: center
   background-color: $gray
   color: $red
+  float: left
 
   .title
     padding: 1.5em
     text-align: center
 
   .partners-list
-    margin: 10px
+    width: 97%
+    margin-left: 1.5%
 
     .partner-item
       position: relative
-      height: 405px
+      height: 420px
       padding: 2.5em
       text-align: center
       background-color: $white
 
       .partner-image
-        width: 200px
-        height: 100px
+        width: 80%
 
       .description
         margin-top: 1em
@@ -178,13 +189,24 @@ input.acess-submit
         color: $black
 
       .check-link
-        position: absolute
-        bottom: 2em
-        right: 2em
-        width: 200px
-        padding: 0.5em
+        width: 70%
+        padding: 1.0em
+        -webkit-transition: box-shadow linear 0.3s
+        -moz-transition: box-shadow linear 0.3s
+        -ms-transition: box-shadow linear 0.3s
+        -o-transition: box-shadow linear 0.3s
+        transition: box-shadow linear 0.3s
         background-color: $red
+        display: inline-block
         color: $white
+        border-radius: 10px
+        text-align: center
+        bottom: 25px
+        position: absolute
+
+      .check-link:hover
+        text-decoration: underline
+        box-shadow: 1.5px 2.5px 2.5px #333
 
 // Footer
 // ----------------------------------------------------------------------
