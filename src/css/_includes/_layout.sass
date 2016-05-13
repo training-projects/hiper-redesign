@@ -32,10 +32,8 @@ input.acess-submit
 
   &:hover
     color: $white
-
-input.acess-submit:hover
-  text-decoration: underline
-  box-shadow: 1.5px 2.5px 2.5px #333
+    text-decoration: underline
+    box-shadow: 1.5px 2.5px 2.5px #333
 
 .logo
   margin-top: 0
@@ -71,10 +69,9 @@ input.acess-submit:hover
   font-size: 160%
   text-align: center
   border-radius: 10px
-
-.purchase:hover
-  color: $white
-  box-shadow: 3px 5px 5px #333
+  &:hover
+    color: $white
+    box-shadow: 3px 5px 5px #333
 
 .first-term, .second-term
   text-align: left
@@ -107,10 +104,9 @@ input.acess-submit:hover
   color: $red
   border-radius: 10px
   display: inline-block
-
-.find:hover
-  color: $red
-  text-decoration: underline
+  &:hover
+    color: $red
+    text-decoration: underline
 
 // Reason to have your
 // ----------------------------------------------------------------------
@@ -145,10 +141,9 @@ input.acess-submit:hover
     bottom: 15px
     border-radius: 10px
     text-align: center
-
-  .redirect-link:hover
-    text-decoration: underline
-    margin-left: 15px
+    &:hover
+      text-decoration: underline
+      margin-left: 15px
 
   .legal-person .redirect-link
     background: #018137
@@ -203,38 +198,41 @@ input.acess-submit:hover
         text-align: center
         bottom: 25px
         position: absolute
-
-      .check-link:hover
-        text-decoration: underline
-        box-shadow: 1.5px 2.5px 2.5px #333
+        &:hover
+          text-decoration: underline
+          box-shadow: 1.5px 2.5px 2.5px #333
 
 // Footer
 // ----------------------------------------------------------------------
 .main-footer
-  margin-top: 4em
+  margin-top: 15px
+  padding-top: 5%
 
   .reference-link, .service-link, .contact-link
-    padding-left: 1.5em
-    font-size: 12px
+    font-size: 70%
     color: $black
+    -webkit-transition: color, padding-left linear 0.3s
+    -moz-transition: color, padding-left linear 0.3s
+    -ms-transition: color, padding-left linear 0.3s
+    -o-transition: color, padding-left linear 0.3s
+    transition: color, padding-left linear 0.3s
     &:hover
+      padding-left: 5%
       color: $red
 
   .reference-item,
   .service-item,
   .contact-item
     padding-left: 1.5em
-
+    
   .bottom-footer
     margin: 2em 0
     border-top: 3px solid $red
+    font-size: 0.7em
 
     .copy,
     .faq,
     .secure
-      margin: 0.5em 0
-      padding-left: 2em
+      margin: 2em 0
       color: $red
-
-    .copy
-      margin-right: 4em
+      text-align: center

@@ -437,6 +437,12 @@ there.
   .check-link{
     left: 10%;
   }
+
+  /* Footer
+  // ---------------------------------------------------------------------- */
+  .reference-list, .service-list{
+    border-bottom: 1px dotted #b3131b;
+  }
 }
 
 @media (min-width: 400px) {
@@ -468,6 +474,12 @@ there.
   .check-link{
     left: 8%;
   }
+
+  /* Footer
+  // ---------------------------------------------------------------------- */
+  .reference-list, .service-list{
+    border-bottom: 1px dotted #b3131b;
+  }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -496,13 +508,20 @@ there.
   .legal-person{
     height: 530px;
   }
-}
-
+  
   /* Partners
   // ---------------------------------------------------------------------- */
   .check-link{
     left: 10%;
   }
+
+  /* Footer
+  // ---------------------------------------------------------------------- */
+  .reference-list, .service-list{
+    border-bottom: none;
+  }
+}
+
 
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -513,6 +532,12 @@ there.
   .facilities,
   .legal-person{
     height: 470px;
+  }
+
+  /* Footer
+  // ---------------------------------------------------------------------- */
+  .reference-list, .service-list{
+    border-bottom: none;
   }
 }
 
@@ -540,6 +565,12 @@ there.
   .check-link{
     left: 12%;
   }
+
+  /* Footer
+  // ---------------------------------------------------------------------- */
+  .reference-list, .service-list{
+    border-bottom: none;
+  }
 }
 
 /* Larger than Desktop HD */
@@ -557,5 +588,11 @@ there.
   // ---------------------------------------------------------------------- */
   .check-link{
     left: 12%;
+  }
+
+  /* Footer
+  // ---------------------------------------------------------------------- */
+  .reference-list, .service-list{
+    border-bottom: none;
   }
 }
