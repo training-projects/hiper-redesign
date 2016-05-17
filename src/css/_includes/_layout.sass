@@ -248,3 +248,55 @@ input.acess-submit
       &:hover
         padding-left: 1.5em
         color: $red
+
+// button more
+
+#buttonOptions
+  width: 50px
+  height: 50px
+  background-color: #0079bf
+  position: fixed
+  top: 220px
+  border-radius: 50%
+  left: -20px
+  box-shadow: 1.5px 2.5px 2.5px #333
+  -webkit-transition: all linear 0.3s
+  -moz-transition: all linear 0.3s
+  -ms-transition: all linear 0.3s
+  -o-transition: all linear 0.3s
+  transition: all linear 0.3s
+  &:hover
+    left: 15px
+  
+  li
+    color: $white
+    padding: 11px 0px 50px 21px
+
+  li a
+    display: block
+
+  .listOptions
+    position: absolute
+    width: 170px
+    top: 10px
+    display: none
+    background-color: #dfdfdf
+    box-shadow: 5px 5px 10px #000
+  li:hover .listOptions
+    display: block
+
+  .listOptions li
+    display: block
+    padding: 15px 0 15px 15px
+    border-bottom: 1px solid #0079bf
+    margin: 0
+  
+  .listOptions li a
+    -webkit-transition: padding-left linear 0.1s
+    -moz-transition: padding-left linear 0.1s
+    -ms-transition: padding-left linear 0.1s
+    -o-transition: padding-left linear 0.1s
+    transition: padding-left linear 0.1s
+    color: #0079bf
+    &:hover
+      padding-left: 15px
