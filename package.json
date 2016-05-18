@@ -2,6 +2,10 @@
   "name": "hiper-redesign",
   "version": "1.0.0",
   "description": "Redesign Hipercard portal.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/training-projects/hiper-redesign.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

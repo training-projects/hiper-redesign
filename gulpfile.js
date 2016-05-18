@@ -23,7 +23,7 @@ const src_path = {
   images: 'src/images/*'
 }
 const build_path = {
-  root: 'build/',
+  index: '',
   css: 'build/css/',
   js: 'build/js/',
   images: 'build/images/'
@@ -39,7 +39,7 @@ gulp.task('html', function(){
       .pipe(jade({
         pretty: true // HTML Compress: false to enable.
       }))
-      .pipe(gulp.dest(build_path.root))
+      .pipe(gulp.dest(build_path.index))
       .pipe(browserSync.stream());
 });
 
