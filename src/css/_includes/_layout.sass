@@ -1,3 +1,11 @@
+@mixin transition($transition){
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+      -ms-transition: $transition;
+       -o-transition: $transition;
+          transition: $transition;
+}
+
 // Main Header
 // ----------------------------------------------------------------------
 body
@@ -24,11 +32,7 @@ input.acess-submit
   border: none
   background-color: $red
   color: $white
-  -webkit-transition: all 1s
-  -moz-transition: all 1s
-  -ms-transition: all 1s
-  -o-transition: all 1s
-  transition: all 1s
+  @include transition(all 1s)
 
   &:hover
     color: $white
@@ -59,11 +63,7 @@ input.acess-submit
 
 .purchase
   background-color: $red
-  -webkit-transition: all 1s
-  -moz-transition: all 1s
-  -ms-transition: all 1s
-  -o-transition: all 1s
-  transition: all 1s
+  @include transition(all 1s)
   color: $white
   padding: 3%
   font-size: 160%
@@ -129,11 +129,7 @@ input.acess-submit
     margin-bottom: 30px
 
   .redirect-link
-    -webkit-transition: all 0.3s
-    -moz-transition: all 0.3s
-    -ms-transition: all 0.3s
-    -o-transition: all 0.3s
-    transition: all 0.3s
+    @include transition(all 1s)
     padding: 1.0em
     background-color: $white
     color: $red
@@ -186,11 +182,7 @@ input.acess-submit
       .check-link
         width: 70%
         padding: 1.0em
-        -webkit-transition: box-shadow linear 0.3s
-        -moz-transition: box-shadow linear 0.3s
-        -ms-transition: box-shadow linear 0.3s
-        -o-transition: box-shadow linear 0.3s
-        transition: box-shadow linear 0.3s
+        @include transition(box-shadow linear 0.3s)
         background-color: $red
         display: inline-block
         color: $white
@@ -211,11 +203,7 @@ input.acess-submit
   .reference-link, .service-link, .contact-link
     font-size: 70%
     color: $black
-    -webkit-transition: color, padding-left linear 0.3s
-    -moz-transition: color, padding-left linear 0.3s
-    -ms-transition: color, padding-left linear 0.3s
-    -o-transition: color, padding-left linear 0.3s
-    transition: color, padding-left linear 0.3s
+    @include transition(color, padding-left linear 0.3s)
     &:hover
       padding-left: 5%
       color: $red
@@ -240,14 +228,17 @@ input.acess-submit
     .faq,
     .secure
       color: $black
-      -webkit-transition: padding-left linear 0.3s
-      -moz-transition: padding-left linear 0.3s
-      -ms-transition: padding-left linear 0.3s
-      -o-transition: padding-left linear 0.3s
-      transition: padding-left linear 0.3s
+      @include transition(padding-left linear 0.3s)
       &:hover
         padding-left: 1.5em
         color: $red
+
+  .social-links li a img
+    width: 44px
+
+  .social-links li
+    display: inline
+    margin-right: 15px
 
 // button more
 
@@ -260,11 +251,7 @@ input.acess-submit
   border-radius: 50%
   left: -20px
   box-shadow: 1.5px 2.5px 2.5px #333
-  -webkit-transition: all linear 0.3s
-  -moz-transition: all linear 0.3s
-  -ms-transition: all linear 0.3s
-  -o-transition: all linear 0.3s
-  transition: all linear 0.3s
+  @include transition(all linear 0.3s)
   &:hover
     left: 15px
   
@@ -292,11 +279,7 @@ input.acess-submit
     margin: 0
   
   .listOptions li a
-    -webkit-transition: padding-left linear 0.1s
-    -moz-transition: padding-left linear 0.1s
-    -ms-transition: padding-left linear 0.1s
-    -o-transition: padding-left linear 0.1s
-    transition: padding-left linear 0.1s
+    @include transition(padding-left linear 0.1s)
     color: #0079bf
     &:hover
       padding-left: 15px
