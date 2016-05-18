@@ -1,10 +1,9 @@
-@mixin transition($transition){
-  -webkit-transition: $transition;
-     -moz-transition: $transition;
-      -ms-transition: $transition;
-       -o-transition: $transition;
-          transition: $transition;
-}
+@mixin transition($arguments)
+  -webkit-transition: $arguments
+     -moz-transition: $arguments
+      -ms-transition: $arguments
+       -o-transition: $arguments
+          transition: $arguments
 
 // Main Header
 // ----------------------------------------------------------------------
@@ -13,7 +12,7 @@ body
 
 .wrapper
   margin-bottom: 5em
-  background-image: url("../../images/woman-shopping.jpg")
+  background-image: url("../images/woman-shopping.jpg")
   background-repeat: no-repeat
 
 .main-header
@@ -203,7 +202,6 @@ input.acess-submit
   .reference-link, .service-link, .contact-link
     font-size: 70%
     color: $black
-    @include transition(color, padding-left linear 0.3s)
     &:hover
       padding-left: 5%
       color: $red
@@ -212,7 +210,7 @@ input.acess-submit
   .service-item,
   .contact-item
     padding-left: 1.5em
-    
+
   .bottom-footer
     margin: 2em 0
     border-top: 3px solid $red
@@ -240,8 +238,8 @@ input.acess-submit
     display: inline
     margin-right: 15px
 
-// button more
 
+// button more
 #buttonOptions
   width: 50px
   height: 50px
@@ -254,7 +252,7 @@ input.acess-submit
   @include transition(all linear 0.3s)
   &:hover
     left: 15px
-  
+
   li
     color: $white
     padding: 11px 0px 50px 21px
@@ -277,7 +275,7 @@ input.acess-submit
     padding: 15px 0 15px 15px
     border-bottom: 1px solid #0079bf
     margin: 0
-  
+
   .listOptions li a
     @include transition(padding-left linear 0.1s)
     color: #0079bf
