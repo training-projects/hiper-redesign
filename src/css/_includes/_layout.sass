@@ -1,9 +1,9 @@
-@mixin transition($arguments)
-  -webkit-transition: $arguments
-     -moz-transition: $arguments
-      -ms-transition: $arguments
-       -o-transition: $arguments
-          transition: $arguments
+@mixin transition($transition)
+  -webkit-transition: $transition
+  -moz-transition: $transition
+  -ms-transition: $transition
+  -o-transition: $transition
+  transition: $transition
 
 // Main Header
 // ----------------------------------------------------------------------
@@ -202,6 +202,7 @@ input.acess-submit
   .reference-link, .service-link, .contact-link
     font-size: 70%
     color: $black
+    @include transition(all linear 0.3s)
     &:hover
       padding-left: 5%
       color: $red
@@ -267,6 +268,7 @@ input.acess-submit
     display: none
     background-color: #dfdfdf
     box-shadow: 5px 5px 10px #000
+  
   li:hover .listOptions
     display: block
 
