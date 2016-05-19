@@ -2,8 +2,9 @@
 
 ![Layout](http://jonathanlima.com.br/Hiper.jpg)
 
-[Hipercard - Original website](https://www.hipercard.com.br/)
-[Site coded by @jonathanslima](http://jonathanlima.com.br/redesign-hipercard/)
+- [Hipercard - Original website](https://www.hipercard.com.br/)
+- [Site coded by @jonathanslima](http://jonathanlima.com.br/redesign-hipercard/)
+- Site coded by @idlua
 
 ## Developers
 - [Jonathan Lima (@jonathanslima)](https://github.com/jonathanslima)
