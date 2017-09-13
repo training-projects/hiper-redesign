@@ -1,8 +1,7 @@
 # Redesign - Hipercard
 
 - [Hipercard - Original website](https://www.hipercard.com.br/)
-- Site coded by @jonathanslima
-- Site coded by @idlua
+- [Site coded by @jonathanslima](http://jonathanslima.com.br/redesign-hipercard/)
 
 ## Developers
 - [Jonathan Lima (@jonathanslima)](https://github.com/jonathanslima)
